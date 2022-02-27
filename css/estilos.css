@@ -1,0 +1,148 @@
+
+body,div, class, label, ul, li {float:left;margin:0; padding:0;border:none;}
+h1,h2,h3,h4,h5{float:left;margin:0;padding:0;border:none;}
+canvas{outline: none;}
+a{text-decoration:none;float: left;margin:0;padding:0;}
+input:focus {outline:none;}
+input{border:none;}
+
+
+body{ 	
+font-size:62.5%; 
+width:100%;
+height:100%;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+background: #FFF;
+line-height:15px;
+overflow:inherit;
+}
+
+
+
+#contenedor{width:1000px;height:600px;position: absolute;}
+#canvass{width:1000px;height:600px; border:1px #009FE2 solid;}
+
+#autores{width:180px;height:20px;margin:0px 410px 0px 410px;}
+#autores a{font-size: 1em;color:#009FE2;}
+#autores a:hover{color:#E6007E;}
+
+#inde_x{position:absolute;top:0;left:0;width: 100%;height: 100%;background:#FFF;z-index: 9998;display:block;}
+#inde_x2{width:1000px;height:600px;background:#FFF;z-index: 9998;position: absolute;}
+#inde_x2 h2{width:150px;height:20px;color:#000; margin: 0px 25px 0px 25px; text-align: center;font-size: 1.2em;}
+#exi_inde{width:100px;height: 20px;font-size:1em;background:#009FE2;position:absolute;top:0;right:0;color:#FFF;line-height:20px;cursor:pointer;
+	text-align: center;z-index: 9999; border-radius:0px 0px 0px 5px;-moz-border-radius:0px 0px 0px 5px;-webkit-border-radius:0px 0px 0px 5px;}
+
+#fondo_blanco{width: 100%;height: 100%;background:#FFF;display: none; z-index:9999;position: absolute;top:0;left:0;}
+#giff{width:50px;height:20px;background:url(../images/gif_kama.gif)no-repeat;position: relative;top: 50%;left: 50%;}
+/*-------------------INDEX-reg-------------------*/
+
+#kama_log{background: url(../images/kama_log.png);width:300px;height: 150px;margin: 200px 350px 225px 350px;}
+#slogan{width:300px; height:20px;text-align:center;font-size:1.2em;font-weight:bold; color:#009FE2;position:relative;top:150px;left:5px;}
+.inp_reg{width: 305px;height:20px;margin: 5px 0px 5px 0px;}
+#loggins{width:50px;height:20px;background:#009FE2;position:absolute;top:0;left:0;color:#FFF;line-height:20px;font-size:1em;
+      text-align:center;cursor:pointer;border-radius:0px 0px 5px 0px;-moz-border-radius:0px 0px 5px 0px;-webkit-border-radius:0px 0px 5px 0px;}
+#navi h1{width: 100px;height: 25px;font-size:1.5em;color: #000;float: left;}
+
+/* ------------------ LOGGIN ----------------- */
+
+.form_perfil{font-size:1.2em;position:absolute;top:50%;}
+.form_perfil select{width:100px;height:20px;background:#CCC;margin:2px 0px 2px 0px;}
+.form_perfil option{width:100px;height:18px;background:#CCC;font-size:0.8em;}
+.form_perfil input{width:150px;height:20px;background:#CCC;text-align:left;}
+.form_perfil label{width:150px;height:20px;text-align: right;line-height: 25px;color:#009FE2;font-weight:600;position: relative;left:-20px;}
+#pareja_f{width:20px;position:relative;left:-5px;}
+#kama_chico{width: 350px;height: 150px;}
+#kama_chico img{width:200px;height: 100px;margin: 0px 0px 50px 150px;}
+
+#footer_form_perfil{width: 700px;height: 20px;margin: 20px 0px 0px 0px;}
+#tit{width: 640px;height: 20px;font-size: 1em;line-height: 20px;color: #000;z-index: 9999;}
+#boton_gustos{width: 60px;height: 20px;background:#E6007E;text-align:center;color: #FFF;
+      border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px; font-size: 1.2em;}
+
+
+/*----------------------Form---------------------------------*/
+
+.form_partes{width: 1000px;height:600px;background:#FFF;display:none;}
+#form_index{display:block;}
+.kama_log2{background: url(../images/kama_log2.png);width:200px;height: 100px;position: absolute;top: 0;left:5px;}
+.sig{width: 84px;height: 84px; background: url(../images/bot_sig.png);position: absolute;top:40%;right:0px;}
+.sig:hover{opacity:0.6;}
+
+/*------Sexo------------*/
+
+#sex_tit{ width:100px;height:25px;font-size:3em;color:#F06;font-weight:bold;position:relative;top:280px;left:150px;}
+#sex_bots{width: 260px;height: 280px;margin:160px 0px 160px 180px;}
+#sex_bot1{width:130px;height:270px;background: url(../images/ico_h.png);opacity:0.5;}
+#sex_bot1:hover{opacity:1.0;}
+#sex_bot2{width:130px;height:270px;background: url(../images/ico_m.png);opacity:0.5;}
+#sex_bot2:hover{opacity:1.0;}
+input#s_ex{width:15px;height:15px;display:none;}/*----------------*/
+input#s_ex2{width:15px;height:15px;display:none;}/*----------------*/
+#sex_cli1{width:15px;height:15px;margin:0px 55px 0px 60px;background: url(../images/click.png);opacity: 0;}
+#sex_cli2{width:15px;height:15px;margin:0px 55px 0px 60px;background: url(../images/click.png);opacity: 0;}
+
+
+/*------Edad------------*/
+
+#edad_to{width: 300px;height:370px;margin:150px 0px 150px 180px;}
+#edad_num{width:300px;height:300px;background: url(../images/edad_h.png);font-size: 3em;}
+#edad_n1{width:20px;height:30px;margin:140px 50px 130px 105px;}
+#edad_n2{width:20px;height:30px;margin:140px 0px 130px 0px;}
+#edad_bots{width:300px;height:70px;}
+#edad_bot1{width:70px;height:70px;margin:0px 10px 0px 70px;background: url(../images/mas_h.png)no-repeat;}
+#edad_bot2{width:70px;height:70px;margin:0px 70px 0px 10px;background: url(../images/menos_h.png)no-repeat;}
+#edad_inp{display:none;}/*----------------*/
+#edad_tit{ width:100px;height:25px;font-size:3em;color:#F06;font-weight:bold;position:relative;top:280px;left:150px;}
+
+
+/*------Gustos------------*/
+
+#gusto_to{width:130px;height:360px;margin:120px 0px 180px 220px;}
+#gusto_to ul{width:130px;height:360px;list-style: none;}
+#gusto_to ul li{width:130px;height:120px;}
+#gusto_to li input{display:none;} /*----------------*/
+#gusto_tit{ width:400px;height:25px;font-size:3em;color:#F06;font-weight:bold;position:relative;top:280px;left:60px;}
+
+#gusto_cli1{width:15px;height:15px;margin:53px 0px 52px 0px;background: url(../images/click.png);opacity: 0;}
+#gusto_cli2{width:15px;height:15px;margin:53px 0px 52px 0px;background: url(../images/click.png);opacity: 0;}
+#gusto_cli3{width:15px;height:15px;margin:53px 0px 52px 0px;background: url(../images/click.png);opacity: 0;}
+
+#gusto_bot1{width:130px;height:120px;background: url(../images/ico_hete_gusto.png)no-repeat;opacity:0.5;}
+#gusto_bot1:hover{opacity:1.0;}
+#gusto_bot2{width:130px;height:120px;background: url(../images/ico_bi_h.png)no-repeat;opacity:0.5;}
+#gusto_bot2:hover{opacity:1.0;}
+#gusto_bot3{width:130px;height:120px;background: url(../images/ico_homo_h.png)no-repeat;opacity:0.5;}
+#gusto_bot3:hover{opacity:1.0;}
+
+
+/*------Pareja------------*/
+
+#form_pareja ul{width:220px;height:440px;margin:80px 0px 80px 250px;list-style:none;}
+#form_pareja ul li{width:220px;height:220px;}
+#form_pareja li input{display:none;} 
+#pareja_bot1{width:200px;height:220px;background: url(../images/pareja_hete.jpg)no-repeat;opacity:0.5;} /*-----jpg-----*/
+#pareja_bot1:hover{opacity:1.0;}
+#pareja_bot2{width:130px;height:220px;margin:0px 20px 0px 50px;background: url(../images/soltero_h.png)no-repeat;position:relative;top:10px;opacity:0.5;}
+#pareja_bot2:hover{opacity:1.0;}
+#pareja_cli1{width:15px;height:15px;margin:103px 0px 102px 0px;background: url(../images/click.png);opacity: 0;}
+#pareja_cli2{width:15px;height:15px;margin:103px 0px 102px 0px;background: url(../images/click.png);opacity: 0;}
+#pareja_tit{ width:100px;height:25px;font-size:3em;color:#F06;font-weight:bold;position:relative;top:280px;left:100px;}
+
+
+/*------Poses------------*/
+#poses_to{width:700px;height:175px;margin:185px 150px 240px 150px;}
+#poses_tit{width:700px;height:25px;font-size:3em;color:#F06;font-weight:bold;text-align:center;}
+#poses_list{width: 650px;height:100px; border: 2px #009FE2 solid;margin:25px 0px 25px 0px;padding:0px 23px 0px 23px;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;}
+.sex1_check{width:50px; height:80px;}/*----------------*/
+.sex1_check img{width:50px; height:50px;margin:10px 0px 0px 0px;}
+.check{ width: 50px; height:30px; margin:0px 0px 10px 0px;}
+.boton_regis{width:84px;height:84px;background: url(../images/bot_sig.png); position: absolute;top:40%;right:0px;}
+.boton_regis:hover{opacity:0.6}
+
+/*------Local-----------*/
+#local_to{width:260px;height:380px;margin:0px 0px 0px 0px;}
+#local_tit{width:300px;height:25px;font-size:3em;color:#F06;font-weight:bold;position:relative;top:280px;left:70px;}
+#local_mapa{width:260px;height:380px;background: url(../images/mapa.jpg); margin:110px 0px 110px 200px; } /*-----jpg-----*/
+select#locc{height:20px;margin:0px 2px 0px 0px;padding:0;border:none;float:left;background:#CCC;color:#000;overflow: auto;}
+#locc option{height:20px;color:#000;margin:0;padding:0;border:none;background:#CCC;}
+#point{width:10px;height:10px;background:#F06;position: relative;top:-1000px;left:-1000px;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;}
